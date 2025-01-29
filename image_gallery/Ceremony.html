@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px; /* Adjusted width for more images */
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #d5006d; /* Wedding theme color */
+            margin-bottom: 20px;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            flex: 1 1 calc(33.33% - 20px); /* Three images per row with spacing */
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .text {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .image-container {
+                flex: 1 1 calc(50% - 20px); /* Two images per row on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-container {
+                flex: 1 1 100%; /* One image per row on very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Some References that may help you to know our work!!</h1>
+
+        <div class="image-section">
+            <div class="image-container">
+                <img src="c5.jpeg" alt="Ceremony">
+            </div>
+            <div class="image-container">
+                <img src="c2.jpeg" alt="Ceremony">
+            </div>
+            <div class="image-container">
+                <img src="c3.jpeg" alt="Ceremony">
+            </div>
+            <div class="image-container">
+                <img src="c4.jpeg" alt="Ceremony">
+            </div>
+            <div class="image-container">
+                <img src="c1.jpeg" alt="Ceremony">
+            </div>
+            <div class="image-container">
+                <img src="c6.jpeg" alt="Ceremony">
+            </div>
+	    <div class="image-container">
+                <img src="photo.jpg" alt="Ceremony">
+            </div>
+	    <div class="image-container">
+                <img src="Orchestra.jpg" alt="Ceremony">
+            </div>
+	    <div class="image-container">
+                <img src="band.jpg" alt="Ceremony">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-player">
+    <p>Playing music <span id="song-index">1</span> of 5</p>
+    <div class="album-cover">
+      <img id="album-cover" src="https://via.placeholder.com/150" alt="Album Cover">
+    </div>
+    <h2 id="song-title">Song Title</h2>
+    <p id="song-artist">Artist Name</p>
+    <div class="controls">
+      <span class="time">00:00</span>
+      <input type="range" class="progress" min="0" max="100" value="0">
+      <span class="time">03:30</span>
+    </div>
+    <div class="volume">
+      <input type="range" class="volume-slider" min="0" max="100" value="50">
+    </div>
+    <div class="buttons">
+      <button class="btn shuffle">🔀</button>
+      <button class="btn prev">⏮</button>
+      <button class="btn play-pause">▶️</button>
+      <button class="btn next">⏭</button>
+      <button class="btn repeat">🔁</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
